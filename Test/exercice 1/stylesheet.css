@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url("bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 100%;
+}
+
+.right {
+  height: 80vh;
+  width: 50%;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.down {
+  display: block;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60vh;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.up button {
+  width: 477px;
+  height: 40px;
+  display: block;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border: none;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 7px;
+  font-size: 9px;
+  box-shadow: -4px 5px 5px -4px rgba(0, 0, 0, 0.55);
+}
+
+.up button:hover {
+  transition: 0.5s;
+  background-color: hsl(248, 58%, 34%);
+}
+
+.up h2 {
+  color: white;
+}
+
+.up span {
+  color: hsl(246, 25%, 77%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+form input {
+  height: 37px;
+  width: 400px;
+  margin-top: 30px;
+  border: none;
+  border: 1px solid hsl(246, 25%, 77%);
+  padding-left: 10px;
+  border-radius: 4px;
+}
+
+form input::placeholder {
+  text-align: left;
+}
+
+form input:focus {
+  outline: 1px solid hsl(248, 13%, 64%);
+}
+
+form button {
+  margin-top: 6%;
+  height: 37px;
+  width: 400px;
+  cursor: pointer;
+  color: white;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  border-radius: 3px;
+  box-shadow: -4px 5px 5px -4px hsl(154, 57%, 27%);
+}
+
+form button:hover {
+  transition: 0.5s;
+  background-color: hsl(154, 67%, 64%);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0 60px;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+}
+
+.left h1 {
+  width: 50%;
+  margin-left: 120px;
+}
+
+.left p {
+  width: 90%;
+  margin-left: 120px;
+  font-size: 16px;
+}
+
+.terms {
+  color: hsl(246, 25%, 77%);
+  font-size: 12px;
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 10px;
+}
